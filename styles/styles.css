@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #DC143C;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -113,7 +113,7 @@ section {
 }
 .controls .control i {
   font-size: 1.2rem;
-  color: var(--color-grey-2);
+  color: white;
   pointer-events: none;
 }
 .controls .active-btn {
@@ -144,7 +144,7 @@ section {
 }
 .theme-btn i {
   font-size: 1.4rem;
-  color: var(--color-grey-2);
+  color: white;
   pointer-events: none;
 }
 
@@ -207,8 +207,8 @@ section {
 
 /*About*/
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
@@ -371,6 +371,7 @@ section {
 }
 .timeline .timeline-item .tl-icon i {
   font-size: 1.3rem;
+  color: white;
 }
 .timeline .timeline-item .tl-duration {
   padding: 0.2rem 0.6rem;
@@ -421,6 +422,7 @@ section {
   width: 100%;
   height: 100%;
   background-color: var(--color-secondary);
+  opacity: 0.5;
   position: absolute;
   left: 0;
   top: 0;
@@ -437,6 +439,7 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
